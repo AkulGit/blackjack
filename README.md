@@ -1,16 +1,14 @@
 # Blackjack (Python)
 
-A command-line Blackjack game built in Python.
+A simple Blackjack game I built in Python to practice OOP and terminal-based game logic. Runs entirely in your terminal, no fancy graphics.
 
 ## How to Play
 
-- You start with $1000.
+- You start with $1000 in virtual cash.
 - Before each round, place a bet.
 - You and the dealer each get two cards.
-- You can choose to:
-  - `Hit` to take another card
-  - `Stand` to keep your hand
-- If your total goes over 21, you bust and lose your bet.
+- Type `Hit` to take another card or `Stand` if you’re feeling lucky with what you’ve got.
+- If your total goes over 21, you bust and lose your bet :(
 - The dealer draws until reaching 17 or higher.
 - The winner is decided based on who is closer to 21 without busting.
 
